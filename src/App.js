@@ -5,19 +5,22 @@ import Titulo from './components/titulo/Titulo'
 import Heading from './components/heading/Heading'
 import Content from './components/content/Content'
 import Footer from './components/footer/Footer'
+import Pelicula from './components/Pelicula'
+
 
 function App() {
   return (
     <Fragment>
       <Sidebar />
 
-      <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content-wrapper" className="d-flex flex-column">
 
 			  <div id="content">
             
           <Topbar />		
 
-          <div class="container-fluid">
+          <div className="container-fluid">
+              <Pelicula />
               <Titulo />
               <Heading />
               <Content />		
